@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+  <title>library</title>
+</head>
+<body>
+    
+     <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <i class="fas fa-book-open"></i>
+            Virtual Radar
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="./lib.html">Library</a>
+            <a href="./About.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search books...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+ 
+     
+    <main id="library-page">
+        <section class="library">
+            <h2 class="section-title">Digital Library</h2>
+            
+            <div class="book-categories">
+                <div class="category-tabs">
+                    <div class="category-tab active" data-category="islamic">Islamic Books</div>
+                    <div class="category-tab" data-category="university">University Books</div>
+                    <div class="category-tab" data-category="fsc">FSC Books</div>
+                    <div class="category-tab" data-category="matric">Matric Books</div>
+                </div>
+
+                <!-- Islamic Books -->
+                <div class="category-content active" id="islamic">
+                    <table class="books-table">
+                        <thead>
+                            <tr>
+                                <th>Book Name</th>
+                                <th>Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>The Holy Quran (English Translation)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Riyad as-Salihin (Gardens of the Righteous)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Fortress of the Muslim (Hisnul Muslim)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Seerah of Prophet Muhammad (PBUH)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Islamic Creed Series (8 Books)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- University Books -->
+                <div class="category-content" id="university">
+                    <table class="books-table">
+                        <thead>
+                            <tr>
+                                <th>Book Name</th>
+                                <th>Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Introduction to Algorithms (CLRS)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Fundamentals of Physics (Halliday & Resnick)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Organic Chemistry (Paula Yurkanis Bruice)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Principles of Economics (Gregory Mankiw)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Engineering Mathematics (K.A. Stroud)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- FSC Books -->
+                <div class="category-content" id="fsc">
+                    <table class="books-table">
+                        <thead>
+                            <tr>
+                                <th>Book Name</th>
+                                <th>Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FSC Physics Part 1 & 2 (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>FSC Chemistry Part 1 & 2 (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>FSC Biology Part 1 & 2 (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>FSC Mathematics Part 1 & 2 (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Computer Science for FSC (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Matric Books -->
+                <div class="category-content" id="matric">
+                    <table class="books-table">
+                        <thead>
+                            <tr>
+                                <th>Book Name</th>
+                                <th>Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Matric Physics (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Matric Chemistry (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Matric Biology (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Matric Mathematics (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>Computer Science for Matric (Punjab Textbook)</td>
+                                <td><a href="#" class="download-btn">Download <i class="fas fa-download"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- footer -->
+
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Logo -->
+      <div class="logo">
+            <i class="fas fa-book-open"></i>
+            Virtual Radar
+        </div>
+    <div class="footer-logo">
+      <!-- <img src="your-logo.png" alt="Your Logo" /> -->
+    </div>
+
+    <!-- Footer Columns -->
+    <div class="footer-columns">
+      <!-- Services -->
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Website Dev</a></li>
+          <li><a href="#">Project Dev</a></li>
+          <li><a href="#">Assignments</a></li>
+          <li><a href="#">GDBs</a></li>
+          <li><a href="#">Quizzes</a></li>
+          <li><a href="#">Lecture Views</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="https://wa.me/yourwhatsappnumber" target="_blank">WhatsApp: +92xxxxxxxxxx</a></li>
+          <li><a href="mailto:your@email.com">Email: virtualradar313@gmail.com</a></li>
+          <li><a href="#">Address: Khyber</a></li>
+        </ul>
+      </div>
+
+      <!-- Important Links -->
+      <div class="footer-column">
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Library</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Chat Button -->
+<a href="https://wa.me/yourwhatsappnumber" target="_blank" class="whatsapp-float">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+</body>
+</html>
